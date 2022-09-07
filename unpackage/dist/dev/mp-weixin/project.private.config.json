@@ -3,5 +3,18 @@
   "projectname": "hmug",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "subpkg/good_list/good_list",
+          "pathName": "subpkg/good_list/good_list",
+          "query": "cid=5",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
